@@ -1,0 +1,37 @@
+
+body {
+    background-image: url("https://media.istockphoto.com/id/1058117688/photo/glass-of-fresh-and-cold-beer-on-dark-background.jpg?s=612x612&w=0&k=20&c=TYVPasf46IN5azOCnBV7FCxeVgBTngqT7w0ZKiMqRXE=");
+    background-size: 80%;
+    
+}
+
+
+ul {
+    position: fixed;
+    top: 60px;
+    left: 0;
+    height: calc(100vh - 60px);
+    background: rgb(17, 50, 200);
+    padding-right: 10px;
+    /* overflow-y: scroll; */
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+}
+
+::-webkit-scrollbar-track {
+
+    box-shadow: inset 0 0 3px grey;
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(10, 189, 25);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: rgb(204, 14, 30);
+}
